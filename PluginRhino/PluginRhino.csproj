@@ -40,6 +40,52 @@
       Include a GuidAttribute which will be used as our unique Rhino plugin id. 
       see https://learn.microsoft.com/en-us/dotnet/standard/assembly/set-attributes-project-file#set-arbitrary-attributes
     -->
+    <AssemblyAttribute Include="Rhino.PlugIns.PlugInDescriptionAttribute">
+      <_Parameter1>Rhino.PlugIns.DescriptionType.Address</_Parameter1>
+      <_Parameter1_IsLiteral>true</_Parameter1_IsLiteral>
+      <_Parameter2>533 South Third Street, Suite 100 Minneapolis MN 55415</_Parameter2>
+    </AssemblyAttribute>
+    <AssemblyAttribute Include="Rhino.PlugIns.PlugInDescriptionAttribute">
+      <_Parameter1>Rhino.PlugIns.DescriptionType.Country</_Parameter1>
+      <_Parameter1_IsLiteral>true</_Parameter1_IsLiteral>
+      <_Parameter2>United States</_Parameter2>
+    </AssemblyAttribute>
+    <AssemblyAttribute Include="Rhino.PlugIns.PlugInDescriptionAttribute">
+      <_Parameter1>Rhino.PlugIns.DescriptionType.Email</_Parameter1>
+      <_Parameter1_IsLiteral>true</_Parameter1_IsLiteral>
+      <_Parameter2>$(CommonAuthorContact)</_Parameter2>
+    </AssemblyAttribute>
+    <AssemblyAttribute Include="Rhino.PlugIns.PlugInDescriptionAttribute">
+      <_Parameter1>Rhino.PlugIns.DescriptionType.Phone</_Parameter1>
+      <_Parameter1_IsLiteral>true</_Parameter1_IsLiteral>
+      <_Parameter2>$(CommonContactPhone)</_Parameter2>
+    </AssemblyAttribute>
+    <AssemblyAttribute Include="Rhino.PlugIns.PlugInDescriptionAttribute">
+      <_Parameter1>Rhino.PlugIns.DescriptionType.Fax</_Parameter1>
+      <_Parameter1_IsLiteral>true</_Parameter1_IsLiteral>
+      <_Parameter2>$(CommonContactFax)</_Parameter2>
+    </AssemblyAttribute>
+    <AssemblyAttribute Include="Rhino.PlugIns.PlugInDescriptionAttribute">
+      <_Parameter1>Rhino.PlugIns.DescriptionType.Organization</_Parameter1>
+      <_Parameter1_IsLiteral>true</_Parameter1_IsLiteral>
+      <_Parameter2>$(CommonCompany)</_Parameter2>
+    </AssemblyAttribute>
+    <AssemblyAttribute Include="Rhino.PlugIns.PlugInDescriptionAttribute">
+      <_Parameter1>Rhino.PlugIns.DescriptionType.UpdateUrl</_Parameter1>
+      <_Parameter1_IsLiteral>true</_Parameter1_IsLiteral>
+      <_Parameter2>$(YakUrl)</_Parameter2>
+    </AssemblyAttribute>
+    <AssemblyAttribute Include="Rhino.PlugIns.PlugInDescriptionAttribute">
+      <_Parameter1>Rhino.PlugIns.DescriptionType.WebSite</_Parameter1>
+      <_Parameter1_IsLiteral>true</_Parameter1_IsLiteral>
+      <_Parameter2>$(YakUrl)</_Parameter2>
+    </AssemblyAttribute>
+    <AssemblyAttribute Include="Rhino.PlugIns.PlugInDescriptionAttribute">
+      <_Parameter1>Rhino.PlugIns.DescriptionType.Icon</_Parameter1>
+      <_Parameter1_IsLiteral>true</_Parameter1_IsLiteral>
+      <_Parameter2>$(AssemblyName).EmbeddedResources.PluginRhino.ico</_Parameter2>
+    </AssemblyAttribute>
+    
     <AssemblyAttribute Include="System.Runtime.InteropServices.GuidAttribute">
       <_Parameter1>$(RhinoPluginGuid)</_Parameter1>
     </AssemblyAttribute>

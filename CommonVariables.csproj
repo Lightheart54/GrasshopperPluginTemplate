@@ -43,6 +43,8 @@
     <CommonCompany>ShapeDiver</CommonCompany>
     <CommonCopyright>ShapeDiver GmbH 2024</CommonCopyright>
     <CommonProduct>A template plug-in for Grasshopper and Rhino</CommonProduct>
+    <CommonContactPhone>-</CommonContactPhone>
+    <CommonContactFax>-</CommonContactFax>
     <YakName>$(CommonName)</YakName>
     <YakAuthors>$(CommonAuthors), $(CommonCompany)</YakAuthors>
     <YakDescription>$(CommonProduct)</YakDescription>
